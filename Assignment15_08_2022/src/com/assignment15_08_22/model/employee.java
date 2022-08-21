@@ -19,31 +19,36 @@ public class employee {
 		employeeExperience = empExp;
 		
 	}
-	
+
 	public int getEmployeeId() {
 		return employeeId;
 	}
-	
-	public void setEmployeeId(int eId) {
-		employeeId = eId;
+
+	public void setEmployeeId(int employeeId) {
+		this.employeeId = employeeId;
 	}
+
 	public char getEmployeeInitial() {
 		return employeeInitial;
 	}
-	public void setEmployeeInt(char eInt) {
-		employeeInitial = eInt;
+
+	public void setEmployeeInitial(char employeeInitial) {
+		this.employeeInitial = employeeInitial;
 	}
+
 	public int getEmployeeSalary() {
 		return employeeSalary;
 	}
-	public void setEmployeeSalary(int esalary) {
-		employeeSalary = esalary; 
+
+	public void setEmployeeSalary(int employeeSalary) {
+		this.employeeSalary = employeeSalary;
 	}
+
 	public int getEmployeeExperience() {
 		return employeeExperience;
 	}
-	public void setEmployeeExerience(int eExp) {
-		employeeExperience = eExp;
-	}
 
+	public void setEmployeeExperience(int employeeExperience) {
+		this.employeeExperience = employeeExperience;
+	}
 }
