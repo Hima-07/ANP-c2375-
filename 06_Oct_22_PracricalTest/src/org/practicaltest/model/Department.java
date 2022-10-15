@@ -9,13 +9,13 @@ public class Department {
 
 	public Department() {
 		super();
-		// TODO Auto-generated constructor stub
+		// empty constructor stub
 	}
 
 	public Department(int id, String name) {
 		super();
 		Id = id;
-		this.name = name;
+		this.name = name;//paramerized cont.
 	}
 
 	public int getId() {

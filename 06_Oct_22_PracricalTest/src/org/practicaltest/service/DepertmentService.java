@@ -1,6 +1,6 @@
 package org.practicaltest.service;
 
-import java.util.HashSet;
+import java.util.HashSet; 
 
 import org.practicaltest.dao.DepartmentDAO;
 import org.practicaltest.model.Department;
