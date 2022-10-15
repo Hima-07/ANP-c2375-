@@ -37,7 +37,7 @@ public static void searchByAuthor() {
 	System.out.println("Enter book author name");
 	String authorString1 = sc.next();
     for(Book b : bookset){
-        if(authorString1.equalsIgnoreCase(Book.getTitle())){
+        if(authorString1.equalsIgnoreCase(Book.getAuthor())){
            System.out.println("Book is avaliable");
         }
         else {

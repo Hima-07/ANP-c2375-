@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Book {
 private String bookID;
 private static String title;
-private String author;
+private static String author;
 private String category;
 private float price;
 public Book() {
@@ -31,7 +31,7 @@ public static String getTitle() {
 public void setTitle(String title) {
 	this.title = title;
 }
-public String getAuthor() {
+public static String getAuthor() {
 	return author;
 }
 public void setAuthor(String author) {

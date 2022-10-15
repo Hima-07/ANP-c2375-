@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 import org.practicaltest.dao.BookDAO;
 import org.practicaltest.model.Book;
+
 import org.practicaltest.service.BookService;
 public class BookView {
 static Scanner sc = new Scanner(System.in);
@@ -54,7 +55,7 @@ public static void checkprice(float price) throws InvalidPriceException {
 	}
 }
 public static void category(String categoryString) throws InvalidCategoryExceptin {
-	 if(categoryString=="Science"||categoryString=="Fiction"||categoryString=="Technology"||categoryString=="Others") {
+	 if(categoryString.equals("Science")||categoryString.equals("Fiction")||categoryString.equals("Technology")||categoryString.equals("Others")) {
 		 System.out.println(categoryString);
 	 }
 	 else{
