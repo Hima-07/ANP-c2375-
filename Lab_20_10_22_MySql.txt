@@ -1,0 +1,43 @@
+#Selecting Database
+use world;
+#Que 1 :
+create table CUSTOMER(Cust_id varchar(5),Fname varchar(15),Lname varchar(15),Area char(2),Phone numeric(10),DOB date,Payment numeric(6,2));
+#Que 2:
+desc CUSTOMER;
+insert into CUSTOMER(Cust_id,Fname,Lname,Area,Phone,DOB,Payment) values('A01','Ivan','Ross','SA',6125467,"1986-01-15",800.50);
+#Que 3:
+select * from CUSTOMER;
+insert into CUSTOMER values('A02','Vandana','Ray','Mu',5560379,"1987-12-20",1000.75);
+insert into CUSTOMER values('A03','Pramada','Jauguste','DA',4560389,"67-07-25",500.00);
+insert into CUSTOMER values('A04','Basu','Navinda','BA',6125401,"56-02-20",860.75);
+insert into CUSTOMER values('A05','Ravi','Shridhar','NA',null,"89-02-15",500.50);
+insert into CUSTOMER values('A06','Rukmini','Aiyer','GH',5125274,"87-07-23",1500.50);
+#Que 5:
+select * from CUSTOMER;
+#Que 6:
+update CUSTOMER Set Phone = 5566345 where Cust_id ='A02';
+update CUSTOMER Set Phone = 1234431 where Cust_id = 'A04';
+#Que 7:
+update CUSTOMER Set DOB = '2000-12-12' where Cust_id = 'A03';
+update CUSTOMER Set DOB = '99-11-29' where Cust_id = 'A05';
+#Que 8:
+Select * from CUSTOMER;
+#Que 9:
+Delete from CUSTOMER WHERE Cust_id = 'A01';
+Delete from CUSTOMER WHERE Cust_id = 'A05';
+select * from CUSTOMER;
+#Que 10:
+Truncate table CUSTOMER;
+Select * from CUSTOMER;
+#Que 11:
+insert into CUSTOMER values ('A001','AAA','Last','MY','123456','99-12-12',123.22);
+insert into CUSTOMER values ('A002','AAB','Laq','qw','122346','99-12-11',123.00);
+insert into CUSTOMER values ('A003','AQA','QWast','xd','126548','79-4-30',166.87);
+insert into CUSTOMER values ('A004','RTR','Ydes','AQ','7935531','89-4-12',76.98);
+insert into CUSTOMER values ('A005','uth','hreud','yy','6492459','99-6-7',999.99);
+select * from CUSTOMER;
+#Que 12:
+update CUSTOMER SET DOB = '00-06-07' Where Cust_id = 'A005';
+#Que 13:
+delete from CUSTOMER where Cust_id ='A005';
+Select * from CUStomer;
